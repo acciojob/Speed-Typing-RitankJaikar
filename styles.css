@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #333;
+}
+
+.quote-display {
+  font-size: 1.2em;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+#quoteInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#quoteInput.correct {
+  border-color: green;
+}
+
+#quoteInput.incorrect {
+  border-color: red;
+}
+
+.timer {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
